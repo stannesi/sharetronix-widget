@@ -1,19 +1,15 @@
-/**
- * v1.0 yooksvile profile/public widget for sharetronix microsocial platform
- * http://yooksville.com/widgets
- *
- * yooksville - http://facebook.com/yooksville
- * Copyright (C) 2011 yooksville
+
+![alt tag] (https://github.com/stannesi/astro-panic/blob/master/Screen-Shot-1.png) 
+
+ * v1.0 profile/public widget for sharetronix microsocial platform
  * licensed under the MIT license.
  *
  * Author: Stan nesi (stannesi@yahoo.com)
  * Website: http://twitter.com/stannesi,
  *          http://facebook.com/stannesi
  *
-**/
 
 *** for professional use only (javascript)***
-
 * To configure this widget to work on your sharetronix microsocial website, you have to unzip the file: shr-ypshr-widget.zip
 
 * Inside it contains a folder call <widghets> and an HTML file calle <widget-test.html> and this README.txt file
@@ -30,7 +26,7 @@
 
 * edit then following strings to suit your need.
 
-******************* SETTING THE DOMAIN HOST *******************
+# SETTING THE DOMAIN HOST 
 * insert your domain host name here withotut the "http://" and with out and ending slash "/"
 * yooksv.link.domain = "domain.com";
 
@@ -43,7 +39,7 @@ NOTE: make sure your widgets are directly in the folder you specific for example
 
 **************************************************************
 
-******************* SETTING THE WIDGET LOCATION *******************
+# SETTING THE WIDGET LOCATION 
 * Insert the location director of where you unzipped your widget
  the full url link of the widget is required... including the "http//"
 e.g.
@@ -52,7 +48,7 @@ e.g.
 * yooksv.link.widget = http + "mysocial.com/social";
 **************************************************************
 
-***************** FOR YOUR USERS **********************
+# FOR YOUR USERS 
 * All they have to do is embed a little javascript code that links to the widget .js source and a little widget code containing the settings, features and themes for their widget and place it on any of their site and viola!!
 
 * a link to the widget engine javascript file called: "ypshr-shrtx-pp-widget-1.0.js"
