@@ -89,14 +89,10 @@ See HTML file: <widget-test.html> for reference.
 
 
 I hope you hav fun using my widget.
-fell free to send following me on @twitter, add me on facebook and send me mails if you have any questions and wanna contribute to this project or any future projects....
+fell free to send following me on twitter - (@Stannesi), add me on facebook and send me mails if you have any questions and wanna contribute to this project or any future projects....
 
 Thank you. God bless you!!
 
-stanley (stannesi@yahoo.com, stannesi@hotmail.com, stannesi@gmail.com)
-
 Twitter    -	http://twitter.com/stannesi
 Facebook   - 	http://facebook.com/stannesi
-Skypename  -      stannesi
 blog       - 	http://stannesi.blogspot.com
-yooksville -    http://yooksville.blogspot.com
