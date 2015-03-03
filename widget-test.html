@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Sharetronix Widgets Test</title>
+
+</head>
+
+<body>
+<script src="js/ypshr-shrtx-pp-widget-1.0.js" type="text/javascript"></script>
+<table width="600" border="0" cellspacing="0" cellpadding="20">
+  <tr>
+    <th scope="col">Public Widget (default theme)</th>
+    <th scope="col">Public Widget (black theme)</th>
+    <th scope="col">Profile Widget (default them)</th>
+    <th scope="col">Profile Widget (red theme)</th>
+  </tr>
+  <tr>
+    <td>  <script>
+    new YPSHR.Widget({
+	   version: 1,
+       type: 'public',
+	   title: 'stannesi is testing...',
+	   subject: 'Sharetronix Public',
+       rpp: 20,
+       interval: 1000,
+       width: 250,
+       height: 350,
+
+       features: {
+         scrollbar: true,
+         fullscreen: false,
+         loop: true,
+         live: true,
+         hashtags: true,
+         timestamp: true,
+         avatars: true, // defaults to false for profile widget, but true for search & faves widget
+         dateformat: 'absolute', // defaults to relative (eg: 3 minutes ago)
+         behavior: 'preloaded',
+       }
+     }).render().start();
+   </script></td>
+    <td>
+	<script>
+    new YPSHR.Widget({
+	   version: 1,
+       type: 'public',
+	   title: 'stannesi is testing...',
+	   subject: 'Sharetronix Publio',
+       rpp: 20,
+       interval: 1000,
+       width: 250,
+       height: 350,
+
+	   theme: {
+         shell: {
+           background: '#000',
+           color: 'yellow',
+           border_color: '#000',
+           border_size: '10px'
+         },
+         posts: {
+           background: '#444',
+           color: 'white',
+           border_color: '#222',
+           border_size: '2px',
+           links: 'silver'
+         }
+       },
+
+       features: {
+         scrollbar: false,
+         fullscreen: false,
+         loop: true,
+         live: true,
+         hashtags: true,
+         timestamp: true,
+         avatars: true, // defaults to false for profile widget, but true for search & faves widget
+         behavior: 'all'
+       }
+     }).render().start();
+   </script></td>
+    <td>   <script>
+	new YPSHR.Widget({
+	   version: 1,
+       type: 'Profile',
+	   title: 'Stannesi is testing...',
+	   subject: 'Stannesi\'s profile',
+       rpp: 20,
+       interval: 1000,
+       width: 250,
+       height: 350,
+       footer: "Follow stannesi...lol",
+
+       features: {
+         scrollbar: false,
+	     fullscreen: false,
+         loop: true,
+         live: true,
+         hashtags: true,
+         timestamp: true,
+         avatars: true, // defaults to false for profile widget, but true for search & faves widget
+         behavior: 'preload',
+         dateformat: 'absolute', // defaults to relative (eg: 3 minutes ago)
+         topPosts: true // only for search widget
+       }
+     }).render().setUser('stannesi').start();
+   </script></td>
+    <td>
+	<script>
+	new YPSHR.Widget({
+	   version: 1,
+       type: 'Profile',
+	   title: 'Stannesi is testing...',
+	   subject: 'Stannesi\'s profile',
+       rpp: 20,
+       interval: 1000,
+       width: 250,
+       height: 350,
+       footer: "Follow me NOW!!",
+
+
+	   theme: {
+         shell: {
+           background: '#990000',
+           color: '#FFFF99',
+           border_color: '#990000',
+           border_size: '2px'
+         },
+         posts: {
+           background: '#444',
+           color: 'white',
+           border_color: '#red',
+           border_size: '1px',
+           links: 'silver'
+         }
+       },
+
+       features: {
+         scrollbar: false,
+	     fullscreen: false,
+         loop: true,
+         live: true,
+         hashtags: true,
+         timestamp: true,
+         avatars: true, // defaults to false for profile widget, but true for search & faves widget
+         behavior: 'all',
+         topPosts: true // only for search widget
+       }
+     }).render().setUser('stannesi').start();
+   </script></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>
