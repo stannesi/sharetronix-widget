@@ -1,61 +1,59 @@
 
 ![alt tag] (https://github.com/stannesi/astro-panic/blob/master/Screen-Shot-1.png) 
 
- * v1.0 profile/public widget for sharetronix microsocial platform
- * licensed under the MIT license.
- *
- * Author: Stan nesi (stannesi@yahoo.com)
- * Website: http://twitter.com/stannesi,
- *          http://facebook.com/stannesi
- *
+v1.0 profile/public widget for sharetronix microsocial platform
+licensed under the MIT license.
 
-*** for professional use only (javascript)***
-* To configure this widget to work on your sharetronix microsocial website, you have to unzip the file: shr-ypshr-widget.zip
+Author:  Stan nesi (stannesi@yahoo.com)
+Website: http://twitter.com/stannesi,
+         http://facebook.com/stannesi
 
-* Inside it contains a folder call <widghets> and an HTML file calle <widget-test.html> and this README.txt file
+# for professional use only (javascript)
+To configure this widget to work on your sharetronix microsocial website, you have to unzip the file: shr-ypshr-widget.zip
 
-* place the unzipped files on your domain host -> e.g. www.domain.com/widgets/
+Inside it contains a folder call <widghets> and an HTML file calle <widget-test.html> and this README.txt file
 
-**** Configuring the JavaScript File ****
+place the unzipped files on your domain host -> e.g. www.domain.com/widgets/
 
-* the open the <widget> folder and locate sub-folder called <js> where all then	javascript (.js) source code is located.
+# Configuring the JavaScript File
+The open the <widget> folder and locate sub-folder called <js> where all then	javascript (.js) source code is located.
 
-* Open the js file: <ypshr-shrtx-pp-widget-1.0.js> with your text editor...so you know i used #Dreamweaver to develop this widget...but any cool widget will do.. but its preferable to use a text-editor that has line-code numberings... so you can easily jump to any line code number..
+Open the js file: <ypshr-shrtx-pp-widget-1.0.js> with your text editor...so you know i used #Dreamweaver to develop this widget...but any cool widget will do.. but its preferable to use a text-editor that has line-code numberings... so you can easily jump to any line code number..
 
-* With your text-editor jump to line #228 where you have a comment ***** EDITABBLE AREA *****
+With your text-editor jump to line #228 where you have a comment ***** EDITABBLE AREA *****
 
-* edit then following strings to suit your need.
+edit then following strings to suit your need.
 
 # SETTING THE DOMAIN HOST 
-* insert your domain host name here withotut the "http://" and with out and ending slash "/"
-* yooksv.link.domain = "domain.com";
+insert your domain host name here withotut the "http://" and with out and ending slash "/"
+yooksv.link.domain = "domain.com";
 
-* e.g. if your domain is http://mysocial.com
-* yooksv.link.domain = mysocial.com";
+e.g. if your domain is http://mysocial.com
+yooksv.link.domain = mysocial.com";
 
 NOTE: make sure your widgets are directly in the folder you specific for example if this widget is located in < http://mysocial.com/social/widgets"
 
-* yooksv.link.domain = mysocial.com/Social";
+yooksv.link.domain = mysocial.com/Social";
 
 **************************************************************
 
 # SETTING THE WIDGET LOCATION 
-* Insert the location director of where you unzipped your widget
- the full url link of the widget is required... including the "http//"
+Insert the location director of where you unzipped your widget
+the full url link of the widget is required... including the "http//"
 e.g.
-* yooksv.link.widget = "http://mysocial.com/social";
+yooksv.link.widget = "http://mysocial.com/social";
 			OR
-* yooksv.link.widget = http + "mysocial.com/social";
+yooksv.link.widget = http + "mysocial.com/social";
+
 **************************************************************
 
 # FOR YOUR USERS 
-* All they have to do is embed a little javascript code that links to the widget .js source and a little widget code containing the settings, features and themes for their widget and place it on any of their site and viola!!
+All they have to do is embed a little javascript code that links to the widget .js source and a little widget code containing the settings, features and themes for their widget and place it on any of their site and viola!!
 
-* a link to the widget engine javascript file called: "ypshr-shrtx-pp-widget-1.0.js"
+a link to the widget engine javascript file called: "ypshr-shrtx-pp-widget-1.0.js"
 e.g.
 <script src="http://mysocial/com/widgets/js/ypshr-shrtx-pp-widget-1.0.js" type="text/javascript"></script>
-
-* and insert the widget code
+and insert the widget code
 
 <script>
     new YPSHR.Widget({
@@ -84,13 +82,10 @@ e.g.
 						e.g. render().setUser('username').start()
 </script>
 
-* See HTML file: <widget-test.html> for reference.
+See HTML file: <widget-test.html> for reference.
 
 
 *******************************************************
-
-
-
 
 
 I hope you hav fun using my widget.
