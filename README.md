@@ -1,5 +1,5 @@
 
-![alt tag] (https://github.com/stannesi/astro-panic/blob/master/Screen-Shot-1.png) 
+![alt tag] (https://github.com/stannesi/astro-panic/blob/master/Screen-Shot-d1.png) 
 
 v1.0 profile/public widget for sharetronix microsocial platform
 licensed under the MIT license.
